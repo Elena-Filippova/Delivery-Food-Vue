@@ -7,72 +7,108 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="header">
-    <div class="container">
-      <div class="header-box">
-        <div class="header-logo logo">
-          <a href="/">
-            <img src="./img/logo.svg" alt="Logo">
-          </a>
-        </div>
-        <div class="header-controls">
-          controls
+  <div class="page-wrapper flex">
+    <header class="header flex">
+      <div class="container">
+        <div class="header-box flex">
+          <div class="header-logo logo">
+            <a href="/">
+              <img src="./img/logo.svg" alt="Logo">
+            </a>
+          </div>
+          <div class="header-controls flex">
+            <button class="btn btn-primary flex">
+              <img src="./img/user.svg" alt="User">
+              Войти
+            </button>
+            <button class="btn btn-outline flex">
+              <img src="./img/shopping-cart.svg" alt="Shopping-cart">
+              Корзина
+            </button>
+          </div>
         </div>
       </div>
-    </div>
-  </header>
-  <main class="main">
-    <div class="container">
-
-    </div>
-  </main>
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-box">
-        <div class="footer-logo logo">
-          <a href="/">
-            <img src="./img/logo.svg" alt="Logo">
-          </a>
+    </header>
+    <main class="main">
+      <section class="banner">
+        <div class="container">
+          <div class="banner-item">
+            <div class="banner-text">
+              <h2 class="banner-title">
+                Онлайн-сервис доставки еды на&nbsp;дом
+              </h2>
+              <p class="banner-description">
+                Блюда из&nbsp;любимого ресторана привезет курьер в&nbsp;перчатках, маске и&nbsp;с&nbsp;антисептиком
+              </p>              
+            </div>
+          </div>
         </div>
-        <div class="footer-nav">
-          <nav>
-            <ul class="nav-list">
+      </section>
+      <section class="products">
+        <div class="container">
+          <div class="products-header flex">
+            <h3 class="products-header--title">
+              Рестораны
+            </h3>
+            <input type="text" class="products-header--search" placeholder="Поиск блюд и ресторанов" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer flex">
+      <div class="container">
+        <div class="footer-box flex">
+          <div class="footer-logo logo">
+            <a href="/">
+              <img src="./img/logo.svg" alt="Logo">
+            </a>
+          </div>
+          <div class="footer-nav">
+            <ul class="nav-list flex">
               <li>
-                Ресторанам
+                <a href="">
+                  Ресторанам 
+                </a>
               </li>
               <li>
-                Курьерам
+                <a href="">
+                  Курьерам
+                </a>
               </li>
               <li>
-                Пресс-центр
+                <a href="">
+                  Пресс-центр
+                </a> 
               </li>
               <li>
-                Контакты
+                <a href="">
+                  Контакты
+                </a> 
               </li>
             </ul>
-          </nav>
-        </div>
-        <div class="footer-social">
-          <ul class="social-list">
-            <li>
-              <a href="">
-                <img src="./img/instagram.svg" alt="Instagram">
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="./img/facebook.svg" alt="Facebook">
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="./img/vk.svg" alt="Vkontakte">
-              </a>
-            </li>
-          </ul>
+          </div>
+          <div class="footer-social flex">
+            <ul class="social-list flex">
+              <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <img src="./img/instagram.svg" alt="Instagram">
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/" target="_blank">
+                  <img src="./img/facebook.svg" alt="Facebook">
+                </a>
+              </li>
+              <li>
+                <a href="https://m.vk.com" target="_blank">
+                  <img src="./img/vk.svg" alt="Vkontakte">
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
 </body>
 </html>
